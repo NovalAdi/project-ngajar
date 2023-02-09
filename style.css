@@ -37,7 +37,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-    background-color: white;
+    background-color: rgba(250, 250, 250, 0.6);
 }
 
 .logo {
@@ -139,49 +139,64 @@ header {
     padding: 30px;
 }
 
-.card-pengurus img {
+.img-pengurus {
     height: 350px;
+    width: 250px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-pengurus img {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
 /* end pengurus */
 
-/* pramuka */
-.pramuka {
+/* kegiatan */
+.kegiatan {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--color-bg1);
-    padding-bottom: 100px;
 }
 
-.pramuka h1 {
+.kegiatan h1 {
     text-align: center;
     font-size: 2rem;
     margin-top: 100px;
     margin-bottom: 80px;
 }
 
-.pramuka span {
+.kegiatan span {
     color: var(--color-primary);
 }
 
-.container-pramuka {
+.container-kegiatan {
     display: flex;
     flex-direction: column;
     gap: 100px;
     width: 80%;
+    margin-bottom: 80px;
 }
 
-.content-pramuka {
+.content-kegiatan {
     display: flex;
     gap: 100px;
 }
 
-.content-pramuka img {
-    object-fit: cover;
+.img-kegiatan {
+    height: 350px;
+    width: 1000px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.content-kegiatan img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .text-content {
@@ -199,5 +214,7 @@ header {
     padding: 10px;
     border-radius: 5px;
 }
-/* end pramuka */
+/* end kegiatan */
 
+/* gallery */
+/* end gallery */
