@@ -154,26 +154,26 @@ header {
 
 /* end pengurus */
 
-/* kegiatan */
-.kegiatan {
+/* ekskul */
+.ekskul {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--color-bg1);
 }
 
-.kegiatan h1 {
+.ekskul h1 {
     text-align: center;
     font-size: 2rem;
     margin-top: 100px;
     margin-bottom: 80px;
 }
 
-.kegiatan span {
+.ekskul span {
     color: var(--color-primary);
 }
 
-.container-kegiatan {
+.container-ekskul {
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -181,19 +181,19 @@ header {
     margin-bottom: 80px;
 }
 
-.content-kegiatan {
+.content-ekskul {
     display: flex;
     gap: 100px;
 }
 
-.img-kegiatan {
+.img-ekskul {
     height: 350px;
     width: 1000px;
     border-radius: 20px;
     overflow: hidden;
 }
 
-.content-kegiatan img {
+.content-ekskul img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -214,7 +214,7 @@ header {
     padding: 10px;
     border-radius: 5px;
 }
-/* end kegiatan */
+/* end ekskul */
 
 /* gallery */
 /* end gallery */
