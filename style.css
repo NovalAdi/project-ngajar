@@ -214,7 +214,13 @@ header {
     padding: 10px;
     border-radius: 5px;
 }
+
 /* end ekskul */
 
-/* gallery */
-/* end gallery */
+/* footer */
+footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* end footer */
